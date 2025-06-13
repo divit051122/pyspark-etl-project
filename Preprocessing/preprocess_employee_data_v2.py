@@ -28,6 +28,11 @@ if __name__ == "__main__":
     df_casted = validate_data_types(df_no_null, schema_metadata)
     df_final = remove_duplicates(df_casted)
 
+
+    # Create output directory if it doesn't exist
+    os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
+
+
     df_final.write.mode("overwrite").option("header", True).csv(output_csv_path)
 
     table_name = get_table_name(input_file, table_mapping_path)
