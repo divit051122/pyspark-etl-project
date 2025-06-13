@@ -1,0 +1,6 @@
+Employee ID,Full Name,Department,Salary,Joining Date,Email,Active,Notes
+E001,John Doe,Engineering,50000,2021-05-12,john@example.com,Yes,Good performer
+E002,Jane Smith,Engineering,,2022-01-10,jane@,Yes,
+E001,John Doe,Engineering,50000,2021-05-12,john@example.com,Yes,Good performer
+E003,Ali Khan,Sales,abc,2023-03-18,ali@example.com,No,
+,,HR,70000,2021-12-01,,Yes,

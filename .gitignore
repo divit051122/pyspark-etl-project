@@ -1,0 +1,20 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore PyCharm file
+.idea/
+
+# Ignore Airflow logs and DB
+airflow.db
+logs/
+output/
+airflow-docker/
+
+# Ignore OS/system files
+.DS_Store
+.env
+
+

@@ -1,0 +1,8 @@
+old,new
+Employee ID,employee_id
+Full Name,full_name
+Department,department
+Salary,salary
+Joining Date,joining_date
+Email,email
+Active,active

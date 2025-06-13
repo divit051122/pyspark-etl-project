@@ -1,0 +1,23 @@
+columns:
+  - name: employee_id
+    dtype: string
+    nullable: false
+  - name: full_name
+    dtype: string
+    nullable: false
+  - name: department
+    dtype: string
+    nullable: false
+  - name: salary
+    dtype: double
+    nullable: true
+  - name: joining_date
+    dtype: date
+    format: yyyy-MM-dd
+    nullable: false
+  - name: email
+    dtype: string
+    nullable: true
+  - name: active
+    dtype: string
+    nullable: false
